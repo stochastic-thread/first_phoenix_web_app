@@ -5,6 +5,9 @@ defmodule PhoenixFirst.User do
     #   Ecto.Model.Validations
     #   Ecto.Model.Callbacks
 
+    # validate user,
+    #    content: present()
+
     schema "users" do
         field :content, :string
     end
